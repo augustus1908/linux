@@ -1,6 +1,6 @@
 # Linux Boot Process
 
-![alt](https://www.crybit.com/wp-content/uploads/2017/01/Linux-booting-process.png)
+![alt](https://4.bp.blogspot.com/-srC-qTNDJd0/WQUXd670NNI/AAAAAAAAJFM/j6jj3_F0X5gtKy71s1QZK1I50MTF6GHhwCLcB/s320/linux-boot-process.png)
 
 Có 6 giai đoạn của quá trình khởi động Linux
 
