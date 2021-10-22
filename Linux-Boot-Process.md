@@ -6,16 +6,16 @@ Có 6 giai đoạn của quá trình khởi động Linux
 
 ## 1.BIOS
 * **Bios** - Basic Input/Output System - Hệ thống đầu ra/ đầu vào cơ bản
-* Là bước đầu tiên của quá trình khởi, nó thực hiện công việc là *POST* (Power On Self Test)
+* Là bước đầu tiên của quá trình khởi, nó thực hiện công việc là **POST** (Power On Self Test)
 * Đây là bài tự kiểm tra phần cứng, trạng thái thông số của nó ở 1 số vị trí như: CPU, bộ nhớ, card mạng, ...
 
 ## 2.MBR
-* **MBR** (Master Boot Record) được lưu trữ tại sector đầu tiên của 1 thiết bị lưu dữ liệu 
+* MBR (Master Boot Record) được lưu trữ tại sector đầu tiên của 1 thiết bị lưu dữ liệu 
 * MBR chỉ 512byte = 1 sector 
 * MBR chứa thông tin:
   * **Primary boot loader** (446 byte): cung cấp thông tin cho boot loader và vị trí boot loader trên ổ cứng.
   * **Partition table information** (64 byte): lưu trữ thông tin các partition
-  * *Magic number* (2 byte): sử dụng để kiểm tra MBR, nếu MBR lỗi thì nó sẽ khôi phục lại.
+  * **Magic number** (2 byte): sử dụng để kiểm tra MBR, nếu MBR lỗi thì nó sẽ khôi phục lại.
  
 ## 3.GRUB
 * Grand Unified Bootloader
