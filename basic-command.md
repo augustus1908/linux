@@ -11,6 +11,7 @@
 > ls
 
 Liệt kê nội dung thư mục
+
 Ví dụ: `ls /applications` sẽ hiển thị tất cả các tệp và thư mục được lưu trong thư mục applications
 
 > cd
@@ -25,11 +26,15 @@ Ví dụ: Thay đổi từ thư mục hiện tại thành /usr/local với `cd /
 `cd .. ` quay về thư mục mẹ
 
 `cd - ` thay đổi trở lại thư mục làm việc trước đó
+
 `cd ~ ` thay đổi thành thư mục chính
+
 Nếu thư mục có khoảng trắng thì gõ: `cd 'Dir name with space'` hoặc `cd Dir\ name\ with\ space`
 
 >sudo
 
 Thực hiện các nhiệm vụ yêu cầu quyền quản trị hoặc quyền root.
+
 Ví dụ: Sử dụng `sudo passwd vietanh` để thay đổi mật khẩu của người dùng "vietanh".
+
 **sudo** để người dùng sử dụng tài khoản của họ để chạy câu lệnh hệ thống. **su** thì bắt buộc người dùng chia sẻ root password với các người dùng khác
