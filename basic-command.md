@@ -8,7 +8,8 @@
 * Tìm hiểu về lệnh, ví dụ lệnh `cat` gõ `man cat`
 
 
-> **cd**
+
+> ## **cd**
 
 Thay đổi, truy nhập một thư mục
 
@@ -26,7 +27,7 @@ Ví dụ: Thay đổi từ thư mục hiện tại thành /usr/local với `cd /
 Nếu thư mục có khoảng trắng thì gõ: `cd 'Dir name with space'` hoặc `cd Dir\ name\ with\ space`
 
 
->**sudo**
+> ## **sudo**
 
 Thực hiện các nhiệm vụ yêu cầu quyền quản trị hoặc quyền root.
 
@@ -136,7 +137,7 @@ Ví dụ: `grep run todo.txt` sẽ tìm kiếm từ "run" trong tệp "todo.txt"
 
 Hiển thị lịch sử lệnh
 
->**df*
+>**df**
 
 Hiển thị báo cáo về việc sử dụng không gian đĩa của hệ thống
 
