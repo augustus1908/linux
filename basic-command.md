@@ -7,6 +7,7 @@
 * Chạy nhiều lệnh trong cùng 1 dòng bằng cách tách các lệnh bằng `;`
 * Tìm hiểu về lệnh, ví dụ lệnh `cat` gõ `man cat`
 
+
 > ls
 
 Liệt kê nội dung thư mục
