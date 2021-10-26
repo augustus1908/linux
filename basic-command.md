@@ -41,7 +41,7 @@ Sudo chạy như sau:
 
 * Giả sử mật khẩu là chính xác. Bắt đầu lệnh sau sudo, không cần nhập mật khẩu để chạy sudo với tư cách root nữa.
 
->**su**
+> ## **su**
 
 * **su** là viết tắt của switch user.
 
@@ -61,91 +61,91 @@ Nếu không chỉ định tên user, thì root được coi là tùy chọn m�
 
 **sudo** để người dùng sử dụng tài khoản của họ để chạy câu lệnh hệ thống. **su** thì bắt buộc người dùng chia sẻ root password với các người dùng khác
 
->**mv**
+> ## **mv**
 
 Đổi tên hoặc di chuyển tập tin hoặc thư mục.
 
 Ví dụ: lệnh `mv todo.txt /home/qlarson/Documents` sẽ di chuyển "todo.txt" vào thư mục "Documents".
 
->**mkdir**
+> ## **mkdir**
 
 Tạo một thư mục mới
 
 Ví dụ: `mkdir vietanh` sẽ tạo một thư mục có tên "vietanh"
 
->**rmdir**
+> ## **rmdir**
 
 Xóa các thư mục trống
 
->**rm**
+> ## **rm**
 
 Xóa một hoặc nhiều tệp hoặc thư mục
 
 Ví dụ: `rm todo.txt` sẽ xóa tệp
 
->**clear**
+> ## **clear**
 
 Xóa màn hình/cửa sổ dòng lệnh để bắt đầu mới.
 
->**cat**
+> ## **cat**
 
 Hiển thị nội dung của một tập tin trên màn hình
 
 Ví dụ: `cat todo.txt` sẽ hiển thị văn bản của "todo.txt" trên màn hình.
 
-> **ls**
+> ## **ls**
 
 Liệt kê nội dung thư mục
 
 Ví dụ: `ls /applications` sẽ hiển thị tất cả các tệp và thư mục được lưu trong thư mục applications
 
->**pwd**
+> ## **pwd**
 
 Hiển thị đường dẫn cho thư mục hiện tại
 
->**locate**
+> ## **locate**
 
 Xác định vị trí một tập tin cụ thể.
 
 Ví dụ: `locate -i vacuum*mop` lệnh sẽ tìm kiếm bất kỳ tệp nào chứa từ "vacuum" và "mop". Lệnh `-i` làm cho trường hợp tìm kiếm không phân biệt chữ hoa và chữ thường.
 
->**cp**
+> ## **cp**
 
 Sao chép tập tin và thư mục.
 
 Ví dụ: lệnh `cp todo.txt /home/qlarson/Documents` sẽ tạo một bản sao của "todo.txt" vào thư mục "Documents"
 
->**alias**
+> ## **alias**
 
 Tạo một bí danh cho các lệnh Linux.
 
 Ví dụ: `alias search=grep` sẽ cho phép bạn sử dụng search thay vì grep
 
->**find**
+> ## **find**
 
 Tìm kiếm các tập tin phù hợp với một mẫu được cung cấp. Lệnh này là để tìm kiếm các tệp và thư mục bằng cách sử dụng các bộ lọc như tên, kích thước, thời gian truy cập và thời gian sửa đổi. 
 
 Ví dụ: `find /home/ -name todo.txt` sẽ tìm kiếm một tệp có tên "todo.txt" trong thư mục chính và các thư mục con của nó
 
->**grep**
+> ## **grep**
 
 Tìm kiếm tệp hoặc đầu ra cho một chuỗi hoặc biểu thức cụ thể. Lệnh này tìm kiếm các dòng chứa một mẫu đã chỉ định và theo mặc định, ghi chúng vào đầu ra tiêu chuẩn.
 
 Ví dụ: `grep run todo.txt` sẽ tìm kiếm từ "run" trong tệp "todo.txt". Các dòng có chứa "run" sẽ được hiển thị.
 
->**history**
+> ## **history**
 
 Hiển thị lịch sử lệnh
 
->**df**
+> ## **df**
 
 Hiển thị báo cáo về việc sử dụng không gian đĩa của hệ thống
 
->**du**
+> ## **du**
 
 Hiển thị chiếm bao nhiêu không gian trong mỗi tập tin. Điều này sẽ hiển thị kích thước trong số khối đĩa. Nếu bạn muốn xem nó theo byte, kilobyte và megabyte, hãy thêm `-h` đối số như thế này : `du -h`
 
->**ssh**
+> ## **ssh**
 
 Đăng nhập từ xa vào một máy Linux khác, qua mạng.
 
