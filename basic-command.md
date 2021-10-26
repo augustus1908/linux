@@ -16,10 +16,14 @@ Ví dụ: `ls /applications` sẽ hiển thị tất cả các tệp và thư m�
 > cd
 
 Thay đổi, truy nhập một thư mục
+
 Ví dụ: Thay đổi từ thư mục hiện tại thành /usr/local với `cd /usr/local`
+
 * Đường dẫn tương đối: `cd Downloads`
 * Đường dẫn tuyệt đối: `cd /home/username/Downloads`
+
 `cd .. ` quay về thư mục mẹ
+
 `cd - ` thay đổi trở lại thư mục làm việc trước đó
 `cd ~ ` thay đổi thành thư mục chính
 Nếu thư mục có khoảng trắng thì gõ: `cd 'Dir name with space'` hoặc `cd Dir\ name\ with\ space`
