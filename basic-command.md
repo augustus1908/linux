@@ -14,6 +14,7 @@ Liệt kê nội dung thư mục
 
 Ví dụ: `ls /applications` sẽ hiển thị tất cả các tệp và thư mục được lưu trong thư mục applications
 
+
 > **cd**
 
 Thay đổi, truy nhập một thư mục
@@ -30,6 +31,7 @@ Ví dụ: Thay đổi từ thư mục hiện tại thành /usr/local với `cd /
 `cd ~ ` thay đổi thành thư mục chính
 
 Nếu thư mục có khoảng trắng thì gõ: `cd 'Dir name with space'` hoặc `cd Dir\ name\ with\ space`
+
 
 >**sudo**
 
