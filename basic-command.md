@@ -8,13 +8,13 @@
 * Tìm hiểu về lệnh, ví dụ lệnh `cat` gõ `man cat`
 
 
-> ls
+> **ls**
 
 Liệt kê nội dung thư mục
 
 Ví dụ: `ls /applications` sẽ hiển thị tất cả các tệp và thư mục được lưu trong thư mục applications
 
-> cd
+> **cd**
 
 Thay đổi, truy nhập một thư mục
 
@@ -31,7 +31,7 @@ Ví dụ: Thay đổi từ thư mục hiện tại thành /usr/local với `cd /
 
 Nếu thư mục có khoảng trắng thì gõ: `cd 'Dir name with space'` hoặc `cd Dir\ name\ with\ space`
 
->sudo
+>**sudo**
 
 Thực hiện các nhiệm vụ yêu cầu quyền quản trị hoặc quyền root.
 
