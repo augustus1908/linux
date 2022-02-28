@@ -15,6 +15,8 @@ Thao tác trên Ubuntu Server 20.04
 ![Untitled](https://f4-zpcloud.zdn.vn/4694588742197033257/8da8e78d2638ea66b329.jpg)
 
 ## 2. Thao tác lệnh cơ bản
+
+
     
     ![Untitled](https://f5-zpcloud.zdn.vn/423317260679165136/5bc834eef55b3905604a.jpg)
     
