@@ -18,13 +18,16 @@ Thao tác trên Ubuntu Server 20.04
     
     ![Untitled](https://f5-zpcloud.zdn.vn/423317260679165136/5bc834eef55b3905604a.jpg)
     
+    
     **`ls -l`**: hiện thị dưới dạng đầy đủ thông tin về file
     
     ![Untitled](https://f6-zpcloud.zdn.vn/647546522591674623/ccb67196b0237c7d2532.jpg)
     
+    
     `ls -a` : hiển thị các file ẩn
     
     ![Untitled](https://f5-zpcloud.zdn.vn/8249730688907762210/4118633aa28f6ed1379e.jpg)
+    
     
     `echo $PATH`: hiển  giá trị của biến PATH
     
