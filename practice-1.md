@@ -73,8 +73,10 @@ Thao tác trên Ubuntu Server 20.04
 4. Luyện tập
 
     a. Thay đổi mật khẩu
+    
         
         ![Untitled](https://f4-zpcloud.zdn.vn/3972179308426930096/e01123e5ed50210e7841.jpg)
+        
         
         Sau đó gõ `exit` thoát ra và đăng nhập lại
         
