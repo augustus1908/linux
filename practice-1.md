@@ -71,6 +71,7 @@ Thao tác trên Ubuntu Server 20.04
     
 
 4. Luyện tập
+
     a. Thay đổi mật khẩu
         
         ![Untitled](https://f4-zpcloud.zdn.vn/3972179308426930096/e01123e5ed50210e7841.jpg)
@@ -88,6 +89,7 @@ Thao tác trên Ubuntu Server 20.04
     
     Remember to use the space bar to go forward one screen and the return key to go forward one line. Press the b key to go back one screen. When you have read enough, exit man using the q key or <Ctrl c>.
     
+
 
 5. Editing text file
     
