@@ -10,11 +10,11 @@ Thao tác trên Ubuntu Server 20.04
 
 **Password:** osboxes.org
 
-##1. 1 số lưu ý khi thao tác lệnh
+## 1. 1 số lưu ý khi thao tác lệnh
 
 ![Untitled](https://f4-zpcloud.zdn.vn/4694588742197033257/8da8e78d2638ea66b329.jpg)
 
-##2. Thao tác lệnh cơ bản
+## 2. Thao tác lệnh cơ bản
     
     ![Untitled](https://f5-zpcloud.zdn.vn/423317260679165136/5bc834eef55b3905604a.jpg)
     
@@ -60,12 +60,12 @@ Thao tác trên Ubuntu Server 20.04
     
     ![Untitled](https://f6-zpcloud.zdn.vn/1132488600684826233/ffc82222ec9720c97986.jpg)
     
-##3. Đường dẫn
+## 3. Đường dẫn
     
     ![Untitled](https://f4-zpcloud.zdn.vn/1533671290698418183/d9efd3051db0d1ee88a1.jpg)
     
 
-##4. Luyện tập
+## 4. Luyện tập
     a. Thay đổi mật khẩu
         
         ![Untitled](https://f4-zpcloud.zdn.vn/3972179308426930096/e01123e5ed50210e7841.jpg)
@@ -84,7 +84,7 @@ Thao tác trên Ubuntu Server 20.04
     Remember to use the space bar to go forward one screen and the return key to go forward one line. Press the b key to go back one screen. When you have read enough, exit man using the q key or <Ctrl c>.
     
 
-##5. Editing text file
+## 5. Editing text file
     
     Gõ `vim <tên file>`
     
