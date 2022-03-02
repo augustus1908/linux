@@ -8,7 +8,6 @@
 * Tìm hiểu về lệnh, ví dụ lệnh `cat` gõ `man cat`
 
 
-
 > ## **cd**
 Thay đổi, truy nhập một thư mục
 
