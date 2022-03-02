@@ -5,6 +5,7 @@
 * Cốt lõi của hệ điều hành máy tính
 * Toàn quyền kiếm soát hệ thống, quản lý: File management, Process management, I/O management, Memory management, Device managemnet
 
+
 ## 2. Shell
 * Trình thông dịch ngôn ngữ lệnh
 * Thực thi các lệnh được đọc từ các thiết bị đầu cuối
