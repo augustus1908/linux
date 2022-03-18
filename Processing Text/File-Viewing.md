@@ -28,4 +28,28 @@ In ra phần cuối của tệp, mặc định là 10 dòng cuối
 * option `-f` : giám sát, xem nhật ký tệp; cho xem 10 dòng cuối của tệp và cập nhật những dòng lệnh mới 
 
 
+## 3. less
+Dùng để đọc nội dung 1 trang của 1 tệp tại 1 thời điểm. Khả năng tải nhanh hơn đối với các tệp lớn vì nó chỉ tải 1 phần của tệp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
