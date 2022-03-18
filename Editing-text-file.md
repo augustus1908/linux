@@ -17,6 +17,7 @@ Khi ta vào vim, bắt đầu ở `normal` mode, ngoài ra còn có các modes `
  
 ## 2. cat
 cat [option] [file name]
+
 Lệnh cat cho phép người dùng tạo một hoặc nhiều file, xem nội dung file, nối file và chuyển hướng đầu ra trong terminal hoặc file.
 * Hiển thị nội dung: `# cat /etc/passwd`
 * Hiển thị nội dung nhiều file: `# cat text text1`
@@ -35,6 +36,7 @@ Lệnh cat cho phép người dùng tạo một hoặc nhiều file, xem nội d
 
 ## 3. split
 split [option] [input [prefix]]
+
 Lệnh `split` sử dụng để chia (hoặc tách) một tệp thành các phân đoạn có kích thước bằng nhau để xem và thao tác dễ dàng hơn và thường chỉ được sử dụng trên các tệp tương đối lớn. Theo mặc định, lệnh split tệp thành các phân đoạn 1000 dòng. Tệp gốc không thay đổi và một tập hợp các tệp mới có cùng tên cộng với tiền tố được thêm vào được tạo. Theo mặc định,tiền tố x được thêm vào
 ![](https://f6-zpcloud.zdn.vn/1064357205992230921/99d5d3dee03e2f60762f.jpg)
 
@@ -50,6 +52,7 @@ Lệnh `split` sử dụng để chia (hoặc tách) một tệp thành các ph�
 
 ## 4. sort
 sort [option] [file name]
+
 Lệnh sort được sử dụng để sắp xếp các dòng của tệp văn bản theo thứ tự tăng dần hoặc giảm dần, theo một khoá sắp xếp. Khóa sắp xếp mặc định là thứ tự của các ký tự ASCII (theo thứ tự bảng chữ cái).
 
 * option `-o` - output to a new file:
@@ -68,6 +71,7 @@ Lệnh sort được sử dụng để sắp xếp các dòng của tệp văn b
 
 ## 5. uniq
 uniq [option] [input[output]]
+
 `uniq` dùng để bỏ các dòng liên tiếp trùng lặp trong một tệp văn bản rất hữu ích để đơn giản hóa hiển thị văn bản.
 ![](https://f5-zpcloud.zdn.vn/3462309147255511007/78d1abedcf0e0050591f.jpg)
 
