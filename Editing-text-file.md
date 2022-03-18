@@ -4,9 +4,13 @@
 ![](https://f5-zpcloud.zdn.vn/244505860166009097/9acd3e063ee7f1b9a8f6.jpg)
 
 Khi ta vào vim, bắt đầu ở `normal` mode, ngoài ra còn có các modes `command, normal, visual, insert` 
+
 Để chuyển từ `normal` sang `insert` ta ấn phím `i`
+
 ![](https://f6-zpcloud.zdn.vn/6395813378241601477/e1a876c53024ff7aa635.jpg)
+
 Để lưu thay đổi và thoát ra, ta gõ `:wq`
+
 ![](https://f6-zpcloud.zdn.vn/3372666385101743784/ab6b81effa0e35506c1f.jpg)
 
 * Các thao tác nhanh với vim
