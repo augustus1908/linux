@@ -54,8 +54,24 @@ cut [OPTION] ... [FILE] ...
 * option `-f` (--fields) : trích xuất bằng cách chỉ định một trường, một tập hợp các trường hoặc một phạm vi trường. Đây là tùy chọn được sử dụng phổ biến nhất : `$ cut -f 1 state.txt` ; `$cut -d "delimiter" -f (field number) file.txt`
 * option `-d` ( --delimiter) : Chỉ định một dấu phân cách sẽ được sử dụng thay cho dấu phân cách “TAB” mặc định.
 * option `-c` (--characters) : trích xuất bằng cách chỉ định 1 ký tự, một bộ ký tự hoặc một dải ký tự : `$ cut -c 2,5,7 state.txt` (lấy các ký tự ở vị trí 2,5,7) ; `$ cut -c 1-7 state.txt` ;...
-* 
-  
+* option `--complement` : Bổ sung cho việc lựa chọn. Khi sử dụng tùy chọn này cut sẽ hiển thị tất cả các byte, ký tự hoặc trường ngoại trừ các trường đã chọn : `$ cut --complement -c 5 state.txt` (trích tệp đã loại đi ký tự số 5)
+* option `-output-delimiter` : Tùy chọn này cho phép chỉ định một chuỗi dấu phân cách đầu ra khác : `$ cut -d " " -f 1,2 state.txt --output-delimiter='%'`
+
+
+
+## 5. wc
+wc [OPTION]... [FILE]...
+word count - cho phép đếm số dòng, từ, ký tự và byte của mỗi tệp nhất định hoặc đầu vào tiêu chuẩn và in kết quả
+
+lệnh sẽ in bốn cột, số dòng, từ, số byte và tên của tệp cho mỗi tệp được thông qua dưới dạng đối số. Khi sử dụng đầu vào tiêu chuẩn, cột thứ tư (tên tệp) không được hiển thị
+![](https://f7-zpcloud.zdn.vn/6895942562314240920/8faf54774a8d85d3dc9c.jpg)
+
+* option `-l` - number of lines 
+* option `-w` - number of words 
+* option `-c` - count of bytes
+* option `-m` - count of characters 
+* option `-L` - the length of longest (number of characters) line in a file
+
 
 
 
