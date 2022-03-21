@@ -66,7 +66,18 @@ Giải nén : `unzip sampleZipFile.zip`
 - **dpkg --configure package-name(s)** - Chạy một giao diện cấu hình để thiết lập một gói.
 - **dpkg-reconfigure package-name(s)** - Chạy một giao diện cấu hình trên một gói đã được cài đặt
 
-
+## Cài đặt 1 chương trình từ source trên Linux
++ Cài mã nguồn của gói (định dạng file .gz hoặc .bz2)
++ Giải nén bằng gunzip hoặc bunzip2, hoặc tar -xvf, tar -zxvf
++ Tìm tập tin install có phần hướng dẫn cài đặt 
++ Hầu hết tuần tự theo các bước sau
+	- ./configure
+	- make
+	- make install
++ Sau khi thực hiện lệnh make xong thì toàn bộ mã nguồn của gói đã được biên dịch sang dạng thực thi 
++ Nhưng các file thực thi vẫn còn trên thư mục
++ Thực hiện thêm lệnh "make install" để chép các file thực thi đó sang vị trí của nó trên hệ thống
++ /usr/bin chứa các file thực thi cho các gói đã cài đặt trên máy
   
   
   
