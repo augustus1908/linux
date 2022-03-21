@@ -17,8 +17,11 @@ Process Status
 Hiến thị thông tin liên quan đến tiến trình trong hệ thống : liệt kê các tiến trình hiện đang chạy và PID của nó và một số thông tin khác.
 
 `[root@rhel7 ~]# ps
+
   PID TTY          TIME CMD
+  
 12330 pts/0    00:00:00 bash
+
 21621 pts/0    00:00:00 ps
 `
 
