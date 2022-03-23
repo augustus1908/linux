@@ -111,12 +111,13 @@ Cho phép tạo ra tối đa 4 phân vùng primary, còn phân vùng logic phụ
   
 - `sudo fdisk -s /dev/sda` : xem kích thước của phân vùng
   
+- `sudo fdisk /dev/sda`
+  
+    Ấn m để thấy hết các tùy chọn
 
-Ấn m để thấy hết các tùy chọn
-  
-Ấn n để tạo phân vùng mới
-  
-Ấn d để xóa phân vùng khỏi ổ đĩa và giải phóng dung lượng
+    Ấn n để tạo phân vùng mới
+
+    Ấn d để xóa phân vùng khỏi ổ đĩa và giải phóng dung lượng
 ![](https://f5-zpcloud.zdn.vn/419097643625438136/4392c3aa963659680027.jpg)
   
 
