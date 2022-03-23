@@ -25,21 +25,35 @@ Linux dùng ký tự “/” để tách các đường dẫn (khác với Windo
 Chức năng của các thư mục:
 
 **/bin**: Các chương trình cơ bản
+
 **/boot**: chứa nhân Linux (kernel Linux) để khởi động và các filesystem maps cũng như các file khởi động giai đoạn 2.
+
 **/dev**: chứa các tập tin thiết bị (CDRom, HDD, FDD,…)
+
 **/etc**: chứa các tập tin cấu hình hệ thống.
+
 **/home**: thư mục dành cho người dùng không phải là root
+
 **/lib**: chứa các thư viện dùng chung cho các lệnh nằm trong /bin và /sbin. Thư mục này cũng chứa các module của kernel.
 
  
 **/mnt** hoặc **/media**: mount point mặc định cho những hệ thống file kết nối bên ngoài.
+
 **/opt**: thư mục chứa các phần mềm cài thêm
+
 **/sbin**: các chương trình hệ thống
+
 **/srv**: dữ liệu được sử dụng bởi các máy chủ lưu trữ trên hệ thống
+
 **/tmp**: thư mục chứa các file tạm thời, xóa đi khi reboot hoặc shutdown
+
 **/usr**: thư mục chứa những file cố định hoặc quan trọng để phục vụ tất cả người dùng
-**/var**: dữ liệu biến được xử lý bởi daemon, điều này bao gồm các tệp nhật ký, hàng đợi, cache,…
+
+**/var**: dữ liệu biến được xử lý bởi daemon, điều này bao gồm các tệp nhật ký, hàng đợi,
+cache,…
+
 **/root**: các tệp cá nhân của người quản trị (root account)
+
 **/proc**: sử dụng cho nhân Linux, chúng được sử dụng bởi kernel để xuất dữ liệu sang không gian người dùng.
 
 
@@ -52,15 +66,25 @@ có thể sử dụng lệnh fsck để sửa chữa các hệ thống tệp b�
 fsck [option] [file]
 
 -A: Áp dụng để kiểm tra tất cả các hệ thống tập tin. 
+
 -C: Hiển thị thanh tiến trình.
+
 -l: Khóa thiết bị để đảm bảo rằng không có chương trình nào khác sẽ cố gắng sử dụng phân vùng trong khi xác minh và do đó gây ra lỗi
+
 -M: Không xác minh hệ thống tập tin gắn kết.
+
 -N: triển khai hành động được thực hiện nhưng không thực sự thực hiện nó.
+
 -P: Cho phép bạn kiểm tra các hệ thống tệp song song, bao gồm cả root.
+
 -R: Không kiểm tra hệ thống tập tin gốc. Điều này chỉ hữu ích với '-A'.
+
 -r: cung cấp số liệu thống kê cho từng thiết bị đang được kiểm tra.
+
 -T: Không hiển thị tiêu đề.
+
 -t: Nó cho phép chúng tôi chỉ định độc quyền các loại hệ thống tệp để xác minh. Các loại có thể là một danh sách được phân tách bằng dấu phẩy.
+
 -V: Cung cấp mô tả về hành động được thực hiện.
 
 
