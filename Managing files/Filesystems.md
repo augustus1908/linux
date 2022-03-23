@@ -57,35 +57,7 @@ cache,…
 **/proc**: sử dụng cho nhân Linux, chúng được sử dụng bởi kernel để xuất dữ liệu sang không gian người dùng.
 
 
-## File System Consistency Checker (FSCK)
 
-fsck (kiểm tra hệ thống tệp) là một tiện ích dòng lệnh cho phép bạn thực hiện kiểm tra tính nhất quán và sửa chữa tương tác trên một hoặc nhiều hệ thống tệp Linux. Nó sử dụng các chương trình dành riêng cho loại hệ thống tập tin mà nó kiểm tra.
-có thể sử dụng lệnh fsck để sửa chữa các hệ thống tệp bị hỏng trong trường hợp hệ thống không khởi động được hoặc không thể gắn phân vùng.
-
-
-fsck [option] [file]
-
--A: Áp dụng để kiểm tra tất cả các hệ thống tập tin. 
-
--C: Hiển thị thanh tiến trình.
-
--l: Khóa thiết bị để đảm bảo rằng không có chương trình nào khác sẽ cố gắng sử dụng phân vùng trong khi xác minh và do đó gây ra lỗi
-
--M: Không xác minh hệ thống tập tin gắn kết.
-
--N: triển khai hành động được thực hiện nhưng không thực sự thực hiện nó.
-
--P: Cho phép bạn kiểm tra các hệ thống tệp song song, bao gồm cả root.
-
--R: Không kiểm tra hệ thống tập tin gốc. Điều này chỉ hữu ích với '-A'.
-
--r: cung cấp số liệu thống kê cho từng thiết bị đang được kiểm tra.
-
--T: Không hiển thị tiêu đề.
-
--t: Nó cho phép chúng tôi chỉ định độc quyền các loại hệ thống tệp để xác minh. Các loại có thể là một danh sách được phân tách bằng dấu phẩy.
-
--V: Cung cấp mô tả về hành động được thực hiện.
 
 
 
