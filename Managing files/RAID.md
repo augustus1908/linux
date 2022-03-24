@@ -30,7 +30,7 @@ bình thường.
 
 Chi phí đắt đỏ (Hiệu suất của hệ thống không đổi) , Tốc độ ghi chậm vì phải thực hiện 2 lần , ...
 
-## RAID 5 
+## RAID 5 - Block-Level Stripping with Distributed Parity
 ![](https://f7-zpcloud.zdn.vn/364288144688300577/8af9cbfd685ba705fe4a.jpg)
 
 Đây có lẽ là dạng RAID mạnh mẽ nhất cho người dùng văn phòng và gia đình với 3 hoặc 5 đĩa cứng riêng biệt. Dữ liệu và bản sao lưu được chia lên tất cả các ổ cứng
