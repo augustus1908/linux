@@ -18,7 +18,7 @@ CHANGE MODE
 chmod [option] [Phân quyền] [file/folder_name]
 
 - Xác định người dùng nào được quyền cho tệp được thay đổi
-- 
+
     **u** – user - Chủ sở hữu hồ sơ.
     
     **g** – group - Người dùng là thành viên của nhóm.
