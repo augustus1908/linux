@@ -42,10 +42,32 @@ Như vậy RAID 5 vừa đảm bảo tốc độ có cải thiện, vừa giữ 
 
 
 
+## mdadm
+RAID được quản lý bằng gói `mdadm` 
 
 
+Kiếm tra khả dụng của gói trên hệ thống : `$ mdadm --version`
+Cài đặt :
+- thêm repo: `add-apt-repository ppa:eugenesan/ppa`
+- cập nhật hệ thống : `apt-get update`
+- cài đặt gói : `apt-get install mdadm`
 
-
+Chức năng:
+  - Tạo 1 RAID mới
+  - Tập howpk các thiêt bị để tạo RAID
+  - Monitor: theo dõi thiết bị
+  - Build
+  - Grow: thay đổi kích thước của mảng
+  - Manage: thêm ổ đĩa, gỡ thiết bị sai hỏng
+  - Misc: tẩy hoặc xóa các superblock cũ, thu thập thông tin
+ 
+Cài đặt RAID
+- Tạo RAID0 : `$ mdadm -C /dev/md0 -l raid0 -n 2 /dev/sd[b-c]1`
+  - `-c` : tạo RAID mới
+  - `-l` : level của RAID
+  - `-n` : không có thiết bị RAID
+ 
+- Kiểm tra RAID vừa tạo được : `mdadm -E /dev/sd[b-c]1`
 
 
 
