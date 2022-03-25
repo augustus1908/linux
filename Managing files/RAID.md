@@ -70,6 +70,7 @@ Cài đặt RAID
 - Kiểm tra RAID vừa tạo được : `mdadm -E /dev/sd[b-c]1`
 
 
+Tham khảo: https://www.geeksforgeeks.org/redundant-array-of-independent-disks-raid-set-2/
 
 
 
