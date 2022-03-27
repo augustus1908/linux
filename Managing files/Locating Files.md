@@ -8,7 +8,7 @@ It supports searching by file, folder, name, creation date, modification date, o
 
 - **. (dot)** — search from the folder you’re currently working on (current directory).
 
-- **~ (tilde)** — to search from your home folder
+- ** ~ (tilde)** — to search from your home folder
 
 ------------------------------------------------
 
