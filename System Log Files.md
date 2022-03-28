@@ -25,11 +25,11 @@ Các tập tin log được đặt trong thư mục **/var/log**. Bất kỳ ứ
 
 
 ### Các cấp độ facility Syslog
-![](blob:https://chat.zalo.me/1301ccca-1ebb-4cb4-ba4c-f75084c749a3)
+![](https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/275809213_1015719365964073_4349856056785922666_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=AlRjsISacyUAX85N2Aq&_nc_ht=scontent.fhan5-6.fna&oh=03_AVIzZXyDEh7xLXeemTvQlADdmnjwiB27zC8jjjt_0ai2Sw&oe=6267D102)
 
 
 ### Mức độ cảnh báo của Syslog
-![](blob:https://chat.zalo.me/29e29a8e-87c4-4f30-af98-b71b2ba67c65)
+![](https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/274952516_1299254247233292_3420491355240581841_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=nZLJLqK3Rf8AX8-XPbt&_nc_ht=scontent.fhan5-6.fna&oh=03_AVLFKvacbggrWVe0AnP2SBNFPM49NL_n5CXEClW36itnpQ&oe=62664BD2)
 
 
 ## LogRotate
@@ -39,7 +39,7 @@ Công cụ quản lý Log files
 
 
 ### Cấu hình `logrotate`
-![](blob:https://chat.zalo.me/a013eb9b-bd23-499e-bed4-bb89469c3562)
+![](https://scontent.fhan5-9.fna.fbcdn.net/v/t1.15752-9/275699181_674723330528402_5178391572375488303_n.png?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_ohc=bf1RulggKy8AX9xuwMW&_nc_ht=scontent.fhan5-9.fna&oh=03_AVIUhu34UDnAkQrCMDSrfLylWxXU2CZigWDlVFYRssO_FA&oe=6268BD7E)
 
 ## Running Job in the Future
 
