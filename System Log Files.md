@@ -43,19 +43,12 @@ Công cụ quản lý Log files
 
 ## Running Job in the Future
 
+### cron
+Cron là một tiện ích giúp lập lịch chạy những dòng lệnh bên phía server để thực thi một hoặc nhiều công việc nào đó theo thời gian được lập sẵn
 
+(Nếu ta cần chạy tasks ở phía server một cách lặp lại theo thời gian định trước nào đó thì cron sẽ hỗ trợ)
 
-
-
-
-
-
-
-
-
-
-
-
+Cron là một chương trình deamon, tức là nó được chạy ngầm mãi mãi một khi nó được khởi động lên
 
 
 
