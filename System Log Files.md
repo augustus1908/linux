@@ -25,7 +25,7 @@ Các tập tin log được đặt trong thư mục **/var/log**. Bất kỳ ứ
 
 
 ### Các cấp độ facility Syslog
-![](blob:https://chat.zalo.me/e4064668-f402-4fac-95c1-3851b230039e)
+![](blob:https://chat.zalo.me/1301ccca-1ebb-4cb4-ba4c-f75084c749a3)
 
 
 ### Mức độ cảnh báo của Syslog
